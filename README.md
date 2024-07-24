@@ -39,8 +39,12 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```sh
 pip install -r requirements.txt
  ```
-
- ## Migrate the databse
+## Migrate the databse
+###make migrations
+ ```sh
+ python manage.py makemigrations
+```
+ ### Migrate the databse
  ```sh
  python manage.py migrate
 ```
