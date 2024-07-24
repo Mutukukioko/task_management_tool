@@ -24,17 +24,13 @@ This is a Task Management Tool built with Django and React. It allows users to c
 ### Clone the Repository
 
 ```sh
-<<<<<<< HEAD
 git clone https://github.com/Mutukukioko/task_management_tool.git
-=======
-git clone https://github.com/Mutukukioko/task-management-tool.git
->>>>>>> master
-cd task-management-tool
+cd task_management_tool
 ```
 
 ## Backend Setup
 ```sh
-python -m venv venv
+python -m venv venv 
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
@@ -51,24 +47,14 @@ pip install -r requirements.txt
 ## Run the Development Server
 ```sh
 `python manage.py runserver
-<<<<<<< HEAD
 ```
 
 ###     The backend server will be available at http://localhost:8000.
-=======
-The backend server will be available at http://localhost:8000.
-```
-
->>>>>>> master
 ## Frontend Setup
 ### Install Dependencies
 ### Navigate to the frontend directory and install the necessary dependencies:
 ```sh
-<<<<<<< HEAD
 cd task-manger-front
-=======
-cd frontend
->>>>>>> master
 npm install
 ```
 ## Run the Development Server
@@ -96,8 +82,3 @@ DELETE /api/tasks/{id}/ - Delete a task by ID
 6. **Contributing**: Instructions for contributing to the project.
 7. **License**: License information.
 8. **Acknowledgements**: Credits the main technologies used.
-<<<<<<< HEAD
-=======
-
-Make sure to replace `https://github.com/your-username/task-management-tool.git` with your actual GitHub repository URL. This `README.md` file will help others understand and contribute to your project easily.
->>>>>>> master
