@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ```
 ## Run the Development Server
 ```sh
-`python manage.py runserver
+python manage.py runserver
 ```
 
 ### The backend server will be available at http://localhost:8000.
