@@ -49,12 +49,12 @@ pip install -r requirements.txt
 `python manage.py runserver
 ```
 
-###     The backend server will be available at http://localhost:8000.
+### The backend server will be available at http://localhost:8000.
 ## Frontend Setup
 ### Install Dependencies
 ### Navigate to the frontend directory and install the necessary dependencies:
 ```sh
-cd task-manger-front
+cd task-manager-front
 npm install
 ```
 ## Run the Development Server
